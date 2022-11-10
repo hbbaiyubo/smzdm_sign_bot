@@ -138,7 +138,7 @@ def push_plus_bot(title, content):
             print("PUSHPLUS服务的token未设置!!\n取消推送")
             return
         print("PUSHPLUS服务启动")
-        url = 'http://pushplus.hxtrip.com/send'
+        url = 'http://www.pushplus.plus/send/'
         data = {
             "token": PUSH_PLUS_TOKEN,
             "title": title,
